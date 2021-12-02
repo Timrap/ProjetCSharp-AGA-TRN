@@ -1,5 +1,14 @@
 <?php
 
+/**
+ * Project :            Terres
+ * Class :              Users
+ * Developer :          Timothée RAPIN
+ * Creation date :      30.11.2021
+ * Modification date :  02.12.2021
+ * Version :            0.1
+ */
+
 namespace Users;
 
 class Users
@@ -13,7 +22,20 @@ class Users
     //</editor-fold>
 
     //<editor-fold desc="public methods">
-
+    /**
+     * @param $firstname
+     * @param $lastname
+     * @param $creationDate
+     * @param $mail
+     * @param $password
+     */
+    public function Users($firstname, $lastname, $creationDate, $mail, $password){
+        $_firstname = $firstname;
+        $_lastname = $lastname;
+        $_creationDate = $creationDate;
+        $_mail = $mail;
+        $_password = $password;
+    }
     //</editor-fold>
 
     //<editor-fold desc="private methods">
