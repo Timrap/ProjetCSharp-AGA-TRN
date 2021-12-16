@@ -1,3 +1,9 @@
+:root {
+    --primary-color: #D0BCFF;
+    --secondary-color: #381E72;
+}
+
+
 body{
     background: rgb(24,24,24);
     color: rgb(255,255,255);
@@ -7,7 +13,7 @@ body{
 
 button{
     height: 49px;
-    background: #D0BCFF;
+    background-color: var(--primary-color);
     border: none;
     border-radius: 100px;
     padding: 10px 24px;
@@ -16,7 +22,7 @@ button{
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
-    color: #381E72;
+    color: var(--secondary-color);
 
     margin: 10px 0px;
 }
