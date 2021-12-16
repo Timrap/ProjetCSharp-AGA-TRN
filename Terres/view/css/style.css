@@ -1,0 +1,22 @@
+body{
+    background: rgb(24,24,24);
+    color: rgb(255,255,255);
+    font-family: "Roboto Light", Arial, sans-serif;
+    text-align: center;
+}
+
+button{
+    height: 49px;
+    background: #D0BCFF;
+    border: none;
+    border-radius: 100px;
+    padding: 10px 24px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #381E72;
+
+    margin: 10px 0px;
+}
