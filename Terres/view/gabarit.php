@@ -5,8 +5,9 @@
 </head>
 <body>
     <nav>
-        <button>Accueil</button>
-        <button>Favori</button>
+        <a href="index.php?action=home"><button>Accueil</button></a>
+        <a href="index.php?action=favorit"><button>Favori</button></a>
+        <a href="index.php?action=register"><button>S'enregistrer</button></a>
     </nav>
 
     <?=$content; ?>

@@ -10,6 +10,9 @@ if (isset($_GET['action'])) {
         case 'home' :
             home();
             break;
+        case  'register' :
+            register();
+            break;
 
         default :
             lost();
