@@ -5,9 +5,10 @@ function home()
     require "view/home.php";
 }
 
-function register()
+function register($data)
 {
-    require "view/register.php";
+    require_once 'model/Users.php';
+    userManage($data);
 }
 
 function lost()

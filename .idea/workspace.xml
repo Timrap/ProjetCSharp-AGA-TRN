@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8755c6f-9b4f-491b-89b1-b3807c0732d6" name="Changes" comment="Création des attriputs brivés">
-      <change afterPath="$PROJECT_DIR$/Terres/model/dbConnector.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Terres/view/register.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Terres/Terres templete avec classes/view/Register.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Terres/Terres templete avec classes.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Terres/controller/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/Terres/controller/navigation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Terres/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Terres/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Terres/view/gabarit.php" beforeDir="false" afterPath="$PROJECT_DIR$/Terres/view/gabarit.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,10 +36,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/php/php.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Terres/Terres templete avec classes/view" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Timothee.RAPIN\OneDrive - CPNV\Documents\3emeAnnee\ProjetCSharp\Terres\Terres templete avec classes\view" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="webserver" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8088">
@@ -62,6 +66,7 @@
       <workItem from="1639648300939" duration="499000" />
       <workItem from="1639648882920" duration="4285000" />
       <workItem from="1642068476958" duration="2395000" />
+      <workItem from="1642671744728" duration="5909000" />
     </task>
     <task id="LOCAL-00001" summary="Projet Terres Créé">
       <created>1638279979672</created>
@@ -99,5 +104,21 @@
     <MESSAGE value="Projet Terres Créé" />
     <MESSAGE value="Création des attriputs brivés" />
     <option name="LAST_COMMIT_MESSAGE" value="Création des attriputs brivés" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Terres/model/dbConnector.php</url>
+          <line>63</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Terres/controller/navigation.php</url>
+          <line>9</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
