@@ -35,6 +35,7 @@ function logout()
 }
 function register($registerRequest)
 {
+    
     try
     {
         if (isset($registerRequest['inputUserEmailAddress']) && isset($registerRequest['inputUserPsw']) && isset($registerRequest['inputUserPswRepeat']))

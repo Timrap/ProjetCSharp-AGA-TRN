@@ -22,6 +22,10 @@ function lost()
 {
     require "view/lost.php";
 }
+    
+    /**
+     *
+     */
 function registerView()
 {
     require "view/register.php";

@@ -47,4 +47,46 @@ class Users
     {
         return $this->password;
     }
+    
+    
+    public function registerAccount(/*$id, */ $_firstname, $_lastname, $_mail, $_password)
+    {
+        $result = FALSE;
+        
+        $strSeparator = "'";
+        
+        $userHashPsw = password_hash($_password, PASSWORD_DEFAULT);
+        
+        $_id = userId();
+        
+        $registerQuery = "INSERT INTO users (id, username, name, firstName, creationDate, mail, password, userType) VALUES ('$_id', '$_username', '$_lastname', '$_firstname', '$_creationDate', '$_mail', '$userHashPsw', 0)";
+        
+        
+        require_once 'model/dbConnector.php';
+        $queryResult = executeQueryInsert($registerQuery);
+        if ($queryResult) {
+            $result = $queryResult;
+        }
+        
+        return $result;
+    }
+    
+    public function userId()
+    {
+        $result = FALSE;
+        
+        $strSeparator = "'";
+        
+        $idQuery = "SELECT id FROM users ORDER BY id Desc LIMIT 0,1";
+        
+        
+        require_once 'model/dbConnector.php';
+        $queryResult = executeQuerySelect($idQuery);
+        if ($queryResult) {
+            $result = $queryResult;
+        }
+        
+        return $result;
+    }
+    
 }

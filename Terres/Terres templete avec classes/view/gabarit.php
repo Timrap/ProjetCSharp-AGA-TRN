@@ -10,10 +10,10 @@ Licence URI: https://www.os-templates.com/template-terms
 <html lang="">
 <!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
 <head>
-    <title>Terresss</title>
+    <title>Terres</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <link href="../../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+    <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
 </head>
 <body id="top">
 <div class="wrapper row0">
@@ -29,11 +29,11 @@ Licence URI: https://www.os-templates.com/template-terms
 
             <ul class="clear">
                 <li <input type="text" role="textbox" value="Voici du texte" /> </li>
-                <li class="active"><a href="../index.php">Accueil</a></li>
+                <li class="active"><a href="index.php">Accueil</a></li>
                 <li><a href="#">Favori</a></li>
                 <li><a class="drop" href="#">Account</a>
                     <ul>
-                        <li><a href="../index.php?action=register">Register</a></li>
+                        <li><a href="index.php?action=register">Register</a></li>
                         <li><a href="pages/full-width.html">Mes images</a></li>
                     </ul>
                 </li>
