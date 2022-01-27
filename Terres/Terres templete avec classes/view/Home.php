@@ -23,12 +23,9 @@ $title = 'Terres. Register';
                     <figure>
                         <header class="heading">Gallery Title Goes Here</header>
                         <ul class="nospace clear">
-
-                            <?php if (isset($_SESSION['picture'])): ?>
-                            <?php foreach ($_SESSION['picture']->GetPicture() as $picture) :?>
-                            <li class="one_quarter first"><a href="#"><img src="<?= $picture->GetImgPath(); ?>" alt="IMG"></a></li>
-                            <?php endforeach ?>
-                            <?php endif; ?>
+                            <?php foreach ($pictures as $picture){?>
+                            <li class="one_quarter first"><a href="#"><img style="width: 300px" src="<?=$picture->GetAccessPath() ?>" alt="IMG"></a></li>
+                            <?php } ?>
 
                         </ul>
                         <figcaption>Gallery Description Goes Here</figcaption>

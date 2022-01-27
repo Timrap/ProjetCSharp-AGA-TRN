@@ -2,18 +2,31 @@
 
 class Pictures
 {
+
+
 private string $name;
-private string $size;
-private string $imgPath;
+private int $size;
+private string $accessPath;
+private string $imageFormat;
 private string $tag;
 private string $description;
 private string $space;
-private array $users = array();
 private DateTime $releasedate;
+private int $deleted;
+private array $users = array();
 
-public function  __construct($name)
+public function  __construct(string $name,int $size,string $accessPath,string $imageFormat,string $tag,string $description,string $space, $users, DateTime $releasedate,int $deleted)
 {
     $this->name = $name;
+    $this->size = $size;
+    $this->accessPath = $accessPath;
+    $this->imageFormat = $imageFormat;
+    $this->tag = $tag;
+    $this->description = $description;
+    $this->space = $space;
+    $this->releasedate = $releasedate;
+    $this->deleted = $deleted;
+    $this->users = $users;
 }
 
 
@@ -28,9 +41,9 @@ public  function GetSize()
     return $this->size;
 }
 
-public function GetImgPath()
+public function GetAccessPath()
 {
-    return $this->imgPath;
+    return $this->accessPath;
 }
 
 public function GetTag()
@@ -48,9 +61,21 @@ public function GetSpace()
     return $this->space;
 }
 
+public function GetUsers()
+{
+    return $this->users;
+}
+
+public  function  SetReleasedate()
+{
+    return  $this->releasedate;
+}
+
+
     public function SetAttributes($description, $imgPath)
     {
         $this->description = $description;
         $this->imgPath = $imgPath;
     }
+
 }
